@@ -54,6 +54,7 @@
                                     url text NULL,
                                     date_of_ingestion date NULL,
                                     data text NULL);
+                                    
     data_test=# \i get_uridata.sql  
     
     
