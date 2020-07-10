@@ -7,12 +7,24 @@
 - update the admin table with the file downloaded with the complete data.
 
 ## Steps
+- Install Python 3 and setup.
 - Create the database and user in postgresql 
 - create the extensions for plpython3u for that database
 - create the admin table in **public** schema
 - create the processing schema called **process**
 - compile the stored procedure
 - execute the stored procedure 
+
+## Install Python 3 and setup 
+
+- [Follow the Python installation documents](https://realpython.com/installing-python/)
+
+- [For installing python modules](https://docs.python.org/3/installing/index.html)
+
+- Run the following command to install requests in python 3
+
+    - pip install requests
+
 
 ## Create the database and user in postgresql 
 
